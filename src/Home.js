@@ -1,14 +1,12 @@
-import logo from './assets/BL-logo.jpg';
-import React from 'react';
-import './App.css';
+import React from "react";
 
 class Home extends React.Component {
-    render() {
-        return(
-            <div>
-                Home page
-            </div>
-        )
-    }
+  render() {
+    return (
+      <>
+        <h1>Hello from BridgeLabz - Home page</h1>
+      </>
+    );
+  }
 }
 export default Home;

@@ -5,13 +5,13 @@ img {
 }
 
 .error-output {
-  /* margin-left: 10px; */
   font-size: 12px;
   font-style: italic;
   color: red;
   display: block;
   margin: 0 auto;
   text-align: center;
+  padding: 5px;
 }
 
 .page-content {
@@ -35,7 +35,8 @@ h1 {
   text-shadow: 3px 3px 1px black;
 }
 
-p, li {
+p,
+li {
   font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
