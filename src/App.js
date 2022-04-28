@@ -1,7 +1,7 @@
 import logo from "./assets/BL-logo.jpg";
-import React from "react";
+import React, {Component} from "react";
 import "./App.css";
-import Home from "./Home.js";
+import Home from "./Home";
 import About from "./About";
 import { Switch, Link, Route } from "react-router-dom";
 
